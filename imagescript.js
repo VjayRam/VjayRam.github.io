@@ -34,7 +34,7 @@ var ImageParticles = {
   bgContext: null,
   bgContextPixelData: null,
 
-  initialize: function(canvas_id, imageData,densityPara=14,produceDistancePara=28,baseRadiusPara=2,maxLineThicknessPara=1,reactionSensitivityPara=2,lineThicknessPara=1) {
+  initialize: function(canvas_id, imageData,densityPara=12,produceDistancePara=22,baseRadiusPara=2,maxLineThicknessPara=1,reactionSensitivityPara=2,lineThicknessPara=1) {
       // Set up the visual canvas 
       this.canvas = document.getElementById(canvas_id);
       this.context = canvas.getContext('2d');
